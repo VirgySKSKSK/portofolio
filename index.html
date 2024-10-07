@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio saya</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <header class="bg-blue-600 text-white p-6">
+        <h1 class="text-3xl font-bold"> Salman </h1>
+        <p class="text-lg">Java Developer | Software Engineer</p>
+    </header>
+
+    <nav class="bg-blue-500 p-4">
+        <ul class="flex space-x-4">
+            <li><a href="#about" class="text-white hover:underline">About</a></li>
+            <li><a href="#projects" class="text-white hover:underline">Projects</a></li>
+            <li><a href="#contact" class="text-white hover:underline">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="p-6">
+        <section id="Tentang Saya" class="my-8">
+            <h2 class="text-2xl font-bold">Tentang Saya</h2>
+            <p class="mt-4">Saya seorang insinyur perangkat lunak dengan pengalaman 1 tahun dalam pengembangan Java. Saya suka membuat aplikasi yang efisien dan terukur serta terus mempelajari teknologi baru.</p>
+        </section>
+
+        <section id="Project" class="my-8">
+            <h2 class="text-2xl font-bold">Projects</h2>
+            <div id="projectList" class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4"></div>
+        </section>
+
+        <section id="Kontak" class="my-8">
+            <h2 class="text-2xl font-bold">Hubungi Saya</h2>
+            <form id="Kontak" class="mt-4">
+                <input type="text" placeholder="Nama Kamu " required class="border p-2 rounded w-full mb-4" />
+                <input type="email" placeholder="Email Kamu" required class="border p-2 rounded w-full mb-4" />
+                <textarea placeholder="Kirim Pesan" required class="border p-2 rounded w-full mb-4" rows="4"></textarea>
+                <button type="submit" class="bg-blue-600 text-white p-2 rounded">Kirim Pesan</button>
+            </form>
+        </section>
+    </main> 
+
+    <footer class="bg-blue-600 text-white text-center p-4">
+        <p>&copy; 2024 Salman. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
